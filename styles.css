@@ -17,7 +17,7 @@ h1{
 a{
     text-decoration: none;
 }
-a,header p{
+a,header p,.call-to-action p, footer p{
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -125,3 +125,25 @@ cite{
 }
 
 /*call to action  */
+.call-to-action{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.call-to-action-container{
+   width:700px;
+   height: 100px;
+   
+   background-color: #3882f6;
+   display: flex;
+   justify-content: space-between;
+   padding:20px 40px
+}
+.call-to-action .btn-2{
+    border-color:#E5E7EB;
+}
+.call-to-action h3{
+    color: #f9faf8; 
+}
+
+/* FOOTER SECTION */
